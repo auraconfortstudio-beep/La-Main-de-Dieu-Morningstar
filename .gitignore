@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.yarn/
+.pnp.*
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Session & data (NEVER commit)
+session/
+auth_info*/
+data/
+database.db
+database.db-*
+*.db
+*.db-wal
+*.db-shm
+
+# Logs & temp
+logs/
+*.log
+npm-debug.log*
+tmp/
+temp/
+.cache/
+
+# Backups
+backups/
+*.session.bak
+session-backup-*.tar.gz
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Build / coverage
+coverage/
+dist/
+build/

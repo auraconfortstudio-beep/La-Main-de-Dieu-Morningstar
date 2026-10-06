@@ -1,0 +1,38 @@
+{
+  "name": "morningstar",
+  "version": "1.0.0",
+  "description": "LA MAIN DE DIEU \u2014 MORNINGSTAR \u2014 ELOHIM \u2014 THE ETERNAL. WhatsApp bot (Baileys 7) optimized for Termux/Android.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "backup-session": "node scripts/backup-session.js"
+  },
+  "repository": "https://github.com/auraconfortstudio-beep/La-Main-de-Dieu",
+  "author": "La Main de Dieu \u2014 MORNINGSTAR",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "async-mutex": "^0.5.0",
+    "axios": "^1.7.9",
+    "baileys": "7.0.0-rc13",
+    "dotenv": "^16.4.7",
+    "file-type": "^19.6.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "google-tts-api": "^2.0.2",
+    "node-webpmux": "^3.2.0",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "youtubei.js": "^13.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "optionalDependencies": {
+    "sharp": "^0.33.5"
+  }
+}
